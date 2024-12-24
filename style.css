@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    /* tekkis qilib beradi  */
+    gap: 20px;
+    /*  oraliq masofani ochish uchun */
+}
+
+.card {
+    background-color: #fff;
+    border: 1px dotted #000;
+    /* border chegra degani va px qalinlashtirish mumkin */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    /* eniga uzayadi */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* height  boyiga uzayadi  */
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
